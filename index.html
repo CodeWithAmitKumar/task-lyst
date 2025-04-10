@@ -11,10 +11,24 @@
     <style>
       /* Prevent flash of unstyled content */
       html { visibility: visible; opacity: 1; }
+      
+      /* Footer styles */
+      .footer {
+        text-align: center;
+        padding: 1rem;
+        font-family: 'Inter', sans-serif;
+        color: #64748b;
+        font-size: 0.875rem;
+        margin-top: 2rem;
+        border-top: 1px solid #e2e8f0;
+      }
     </style>
   </head>
   <body>
     <div id="root"></div>
+    <footer class="footer">
+      Made with ❤️ by Amit
+    </footer>
     <script type="module" src="/src/main.tsx"></script>
     <script>
       localStorage.clear()
